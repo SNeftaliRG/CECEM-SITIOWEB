@@ -1,0 +1,38 @@
+/* Hacer que el header sea fijo en la parte superior */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000; /* Asegurarse de que quede encima de otros elementos */
+}
+
+/* Ajustar el margen superior del contenido para que no quede oculto debajo del header fijo */
+body {
+    margin-top: 80px; /* Ajusta el valor según el alto del header */
+}
+
+
+
+
+
+.video-container {
+    position: relative;
+    width: 1000%; /* 100% de ancho disponible */
+    max-width: 1000px; /* Tamaño máximo más grande para el contenedor */
+    height: 0;
+    padding-bottom: 25%; /* Reducir el porcentaje de altura para hacer el video más bajo */
+    margin: 0 auto; /* Centra el contenedor */
+    overflow: hidden;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* El video ocupa el 100% del contenedor */
+    height: 100%; /* El video ocupa el 100% del contenedor */
+    /*object-fit: cover;  Asegura que el video cubra el área sin deformarse */
+}
+
