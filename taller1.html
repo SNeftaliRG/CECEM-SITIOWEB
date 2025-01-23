@@ -96,6 +96,66 @@
 
         <!--INCIO Sección principal del contenido -->
         <main style="background-color: #efefef !important ; color: #1f6157 !important;">
+            <style>
+                /* Estilo personalizado para ajustar el tamaño de la fuente */
+                .card-body {
+                    font-size: 1rem; /* Tamaño de fuente base */
+                }
+            
+                .card-body a {
+                    font-size: 1.25rem; /* Tamaño del título de la tarjeta */
+                }
+            
+                .card-body p {
+                    font-size: 0.9rem; /* Tamaño de los párrafos */
+                }
+            
+                /* Ajustes para pantallas pequeñas */
+                @media (max-width: 576px) {
+                    .card-body {
+                        font-size: 1.2rem; /* Aumentar el tamaño de la fuente en pantallas pequeñas */
+                    }
+            
+                    .card-body a {
+                        font-size: 1.5rem; /* Aumentar el tamaño del título en pantallas pequeñas */
+                    }
+            
+                    .card-body p {
+                        font-size: 1rem; /* Aumentar el tamaño de los párrafos */
+                    }
+                }
+            
+                /* Ajustes para pantallas medianas */
+                @media (max-width: 768px) {
+                    .card-body {
+                        font-size: 1.1rem; /* Aumentar ligeramente el tamaño de la fuente */
+                    }
+            
+                    .card-body a {
+                        font-size: 1.4rem; /* Aumentar ligeramente el tamaño del título */
+                    }
+            
+                    .card-body p {
+                        font-size: 1rem; /* Ajustar tamaño de párrafos */
+                    }
+                }
+            
+                /* Ajustes para pantallas grandes */
+                @media (min-width: 992px) {
+                    .card-body {
+                        font-size: 1rem; /* Mantener el tamaño de fuente base */
+                    }
+            
+                    .card-body a {
+                        font-size: 1.25rem; /* Mantener el tamaño de los títulos */
+                    }
+            
+                    .card-body p {
+                        font-size: 0.9rem; /* Mantener tamaño de párrafos */
+                    }
+                }
+            </style>
+            
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -283,6 +343,7 @@
                     </div>
                 </div>
             </div>
+            
             
         </main>
         <!--FIN Sección principal del contenido -->
