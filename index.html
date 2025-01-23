@@ -73,6 +73,21 @@
             </nav>
         </header>
         
+        <!-- JavaScript para cerrar el menú al hacer clic en un enlace -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const navbarToggler = document.querySelector('.navbar-toggler');
+                const navbarMenu = document.querySelector('#templatemo_main_nav');
+        
+                // Cerrar el menú cuando se hace clic en un enlace
+                navbarMenu.addEventListener('click', function (event) {
+                    if (event.target.tagName === 'A' && navbarToggler.getAttribute('aria-expanded') === 'true') {
+                        navbarToggler.click(); // Simula un clic para cerrar el menú
+                    }
+                });
+            });
+        </script>
+        
         
         <!--FIN Encabezado principal -->
         
