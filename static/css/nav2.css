@@ -194,17 +194,28 @@ h1 {
     margin-bottom: 40px; /* Ajusta el espacio entre la imagen y el título */
 }
 
-/* Títulos de la tarjeta */
-.custom-title h2 {
+ /* Títulos de la tarjeta */
+ .custom-title h2 {
     font-size: 1.2rem;
     text-align: center;
     margin-top: 15px;
 }
 
-/* Estilos adicionales para la responsividad */
+/* Aumentar tamaño de la fuente de la parte trasera de las tarjetas en pantallas pequeñas */
+.flip-card-back ul li {
+    font-size: 1rem; /* Tamaño de fuente estándar */
+}
+
+/* Ajustar el tamaño de la fuente específicamente para teléfonos (pantallas pequeñas) */
 @media (max-width: 768px) {
+    .flip-card-back ul li {
+        font-size: 1.2rem; /* Aumentar el tamaño de la fuente en pantallas pequeñas */
+        padding: 10px; /* Añadir espacio alrededor del texto */
+    }
+
+    /* También puedes aumentar el tamaño de otros elementos si es necesario */
     .custom-title h2 {
-        font-size: 1rem; /* Reducir tamaño de fuente en pantallas pequeñas */
+        font-size: 1.5rem; /* Aumentar el tamaño del título en pantallas pequeñas */
     }
 
     .flip-card-inner {
@@ -213,7 +224,12 @@ h1 {
 }
 
 @media (max-width: 576px) {
-    .flip-card-front, .flip-card-back {
-        height: auto;
+    .flip-card-back ul li {
+        font-size: 1.3rem; /* Aumentar aún más el tamaño de la fuente en pantallas muy pequeñas */
+        padding: 12px; /* Asegurarse de que haya suficiente espacio */
+    }
+
+    .custom-title h2 {
+        font-size: 1.6rem; /* Aumentar tamaño de título para pantallas más pequeñas */
     }
 }
