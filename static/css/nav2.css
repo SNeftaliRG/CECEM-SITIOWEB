@@ -186,7 +186,7 @@ h1 {
 
 
 .custom-title {
-    margin-top: 30px; /* Controla el espaciado superior */
+    margin-top: 40px; /* Controla el espaciado superior */
 }
 
 
@@ -194,17 +194,12 @@ h1 {
     margin-bottom: 40px; /* Ajusta el espacio entre la imagen y el título */
 }
 
-.custom-title h2 {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-top: 15px;
-}
 
 /* Títulos de la tarjeta */
 .custom-title h2 {
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 /* Aumentar tamaño de la fuente de la parte trasera de las tarjetas */
