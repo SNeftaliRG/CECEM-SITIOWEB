@@ -217,7 +217,7 @@ h1 {
 
     /* Para las tarjetas específicas de certificación 1 y 2, aumentar aún más el tamaño */
     .flip-card-back ul li.cert1, .flip-card-back ul li.cert2 {
-        font-size: 1.4rem; /* Aumentar más para estas tarjetas */
+        font-size: 1.5rem; /* Aumentar más para estas tarjetas */
         padding: 12px;
     }
 
@@ -250,7 +250,7 @@ h1 {
 
     /* Ajustar tamaño de la fuente y padding para la certificación 3 */
     .flip-card-back ul li.cert3 {
-        font-size: 1.2rem; /* Reducir el tamaño de la fuente en pantallas muy pequeñas */
+        font-size: 1rem; /* Reducir el tamaño de la fuente en pantallas muy pequeñas */
         padding: 10px; /* Asegurar suficiente espacio en pantallas pequeñas */
     }
 }
