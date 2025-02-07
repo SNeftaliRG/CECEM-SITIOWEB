@@ -209,20 +209,20 @@ h1 {
 
 /* Aumentar tamaño de la fuente de la parte trasera de las tarjetas */
 .flip-card-back ul li {
-    font-size: 1rem; /* Tamaño de fuente estándar */
+    font-size: 1.4rem; /* Tamaño de fuente estándar */
 }
 
 /* Ajustar el tamaño de la fuente específicamente para teléfonos (pantallas pequeñas) */
 @media (max-width: 768px) {
     /* Para todas las tarjetas, aumentar el tamaño de la fuente en pantallas pequeñas */
     .flip-card-back ul li {
-        font-size: 1.2rem; /* Aumentar el tamaño de la fuente */
+        font-size: 1.4rem; /* Aumentar el tamaño de la fuente */
         padding: 10px; /* Añadir espacio alrededor del texto */
     }
 
     /* Para las tarjetas específicas de certificación 1 y 2, aumentar aún más el tamaño */
     .flip-card-back ul li.cert1, .flip-card-back ul li.cert2 {
-        font-size: 1.3rem; /* Aumentar más para estas tarjetas */
+        font-size: 1.4rem; /* Aumentar más para estas tarjetas */
         padding: 12px;
     }
 
@@ -233,7 +233,7 @@ h1 {
     }
 
     .custom-title h2 {
-        font-size: 1.5rem; /* Aumentar tamaño del título en pantallas pequeñas */
+        font-size: 1.2rem; /* Aumentar tamaño del título en pantallas pequeñas */
     }
 
     .flip-card-inner {
@@ -250,7 +250,7 @@ h1 {
 
     /* Ajustar tamaños de los títulos */
     .custom-title h2 {
-        font-size: 1.6rem; /* Aumentar tamaño de título */
+        font-size: 1.2rem; /* Aumentar tamaño de título */
     }
 
     /* Ajustar tamaño de la fuente y padding para la certificación 3 */
