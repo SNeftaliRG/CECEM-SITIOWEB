@@ -223,7 +223,7 @@ h1 {
 
     /* Ajustar tamaño de la fuente para la certificación 3 */
     .flip-card-back ul li.cert3 {
-        font-size: 1.1rem; /* Ajustar el tamaño de la fuente para certificación 3 */
+        font-size: 1rem; /* Ajustar el tamaño de la fuente para certificación 3 */
         padding: 8px; /* Reducir el padding para ajustarse mejor */
     }
 
