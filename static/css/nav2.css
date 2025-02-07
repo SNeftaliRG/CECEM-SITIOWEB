@@ -193,3 +193,27 @@ h1 {
 .card-img {
     margin-bottom: 40px; /* Ajusta el espacio entre la imagen y el título */
 }
+
+/* Títulos de la tarjeta */
+.custom-title h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Estilos adicionales para la responsividad */
+@media (max-width: 768px) {
+    .custom-title h2 {
+        font-size: 1rem; /* Reducir tamaño de fuente en pantallas pequeñas */
+    }
+
+    .flip-card-inner {
+        transform: rotateY(0); /* Prevenir la rotación de la tarjeta en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 576px) {
+    .flip-card-front, .flip-card-back {
+        height: auto;
+    }
+}
