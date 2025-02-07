@@ -70,35 +70,6 @@ p {
   }
 
 
-/* Título centrado para dispositivos grandes */
-h1 {
-    text-align: center;
-    font-size: 4rem; /* Tamaño de fuente más grande para pantallas grandes */
-    word-wrap: break-word; /* Permite que el texto se divida si es necesario */
-}
-
-/* Ajustar tamaño del título en pantallas medianas */
-@media (max-width: 1024px) {
-    h1 {
-        font-size: 3rem; /* Tamaño de fuente más grande para pantallas medianas */
-    }
-}
-
-/* Ajustar tamaño del título en pantallas pequeñas */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2.5rem; /* Tamaño de fuente aún más grande para pantallas pequeñas */
-        padding: 0 10px; /* Agregar algo de espacio para evitar que se salga del borde */
-    }
-}
-
-/* Ajustar aún más en pantallas muy pequeñas */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 2rem; /* Tamaño de fuente más grande para pantallas muy pequeñas */
-        padding: 0 5px; /* Ajuste adicional de padding */
-    }
-}
 
 /* Contenedor para la tarjeta flip */
 .flip-card {
