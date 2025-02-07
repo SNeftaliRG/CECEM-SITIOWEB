@@ -194,28 +194,33 @@ h1 {
     margin-bottom: 40px; /* Ajusta el espacio entre la imagen y el título */
 }
 
- /* Títulos de la tarjeta */
- .custom-title h2 {
+.custom-title h2 {
     font-size: 1.2rem;
     text-align: center;
     margin-top: 15px;
 }
 
-/* Aumentar tamaño de la fuente de la parte trasera de las tarjetas en pantallas pequeñas */
+/* Aumentar tamaño de la fuente de la parte trasera de las tarjetas */
 .flip-card-back ul li {
     font-size: 1rem; /* Tamaño de fuente estándar */
 }
 
 /* Ajustar el tamaño de la fuente específicamente para teléfonos (pantallas pequeñas) */
 @media (max-width: 768px) {
+    /* Para todas las tarjetas, aumentar el tamaño de la fuente en pantallas pequeñas */
     .flip-card-back ul li {
-        font-size: 1.2rem; /* Aumentar el tamaño de la fuente en pantallas pequeñas */
+        font-size: 1.2rem; /* Aumentar el tamaño de la fuente */
         padding: 10px; /* Añadir espacio alrededor del texto */
     }
 
-    /* También puedes aumentar el tamaño de otros elementos si es necesario */
+    /* Para las tarjetas específicas de certificación 1 y 2, aumentar aún más el tamaño */
+    .flip-card-back ul li.cert1, .flip-card-back ul li.cert2 {
+        font-size: 1.3rem; /* Aumentar más para estas tarjetas */
+        padding: 12px;
+    }
+
     .custom-title h2 {
-        font-size: 1.5rem; /* Aumentar el tamaño del título en pantallas pequeñas */
+        font-size: 1.5rem; /* Aumentar tamaño del título en pantallas pequeñas */
     }
 
     .flip-card-inner {
@@ -224,12 +229,19 @@ h1 {
 }
 
 @media (max-width: 576px) {
+    /* Aumentar aún más el tamaño de la fuente en pantallas más pequeñas */
     .flip-card-back ul li {
-        font-size: 1.3rem; /* Aumentar aún más el tamaño de la fuente en pantallas muy pequeñas */
+        font-size: 1.3rem;
         padding: 12px; /* Asegurarse de que haya suficiente espacio */
     }
 
+    /* Ajustar tamaños de los títulos */
     .custom-title h2 {
-        font-size: 1.6rem; /* Aumentar tamaño de título para pantallas más pequeñas */
+        font-size: 1.6rem; /* Aumentar tamaño de título */
+    }
+
+    .flip-card-back ul li.cert1, .flip-card-back ul li.cert2 {
+        font-size: 1.4rem; /* Aumentar aún más en pantallas muy pequeñas */
+        padding: 14px;
     }
 }
