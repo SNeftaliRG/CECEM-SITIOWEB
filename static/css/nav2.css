@@ -186,7 +186,7 @@ h1 {
 
 
 .custom-title {
-    margin-top: 40px; /* Controla el espaciado superior */
+    margin-top: 35px; /* Controla el espaciado superior */
 }
 
 
@@ -199,7 +199,7 @@ h1 {
 .custom-title h2 {
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 /* Aumentar tamaño de la fuente de la parte trasera de las tarjetas */
