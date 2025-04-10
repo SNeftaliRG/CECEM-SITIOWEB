@@ -26,6 +26,16 @@
         <script src="static/js/templatemo.js"></script>
         <script src="static/js/custom.js"></script>
         <!-- End Script -->
+        <style>
+            .card {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            }
+        </style>
     </head>
     <body>
         <!--INICIO Encabezado principal -->
@@ -68,6 +78,127 @@
 
         <main>
             
+            <section class="py-1">
+                <div class="container-sm"> <!-- Container reducido para pantallas más pequeñas -->
+                    <div class="row text-left p-2 pb-3">
+                        <center><h1>FERIA DE LA SALUD</h1></center> 
+                    </div>
+                    <section class="bg-success py-3 col-md-10 mx-auto d-flex align-items-center justify-content-center">
+                        <div class="container">
+                            <div class="row align-items-center py-0.5">
+                                <div class="col-md-11.5 text-white align-items-center">
+                                    <h5 style="text-align: justify;">
+                                        Desde el Centro de Capacitación y Educación en Salud CECEM Salamanca, nos complace extenderles una cordial invitación para participar en nuestra Feria de la Salud, 
+                                        que es un evento enfocado en promover el bienestar y la salud integral de nuestra comunidad. 
+                                        Esta iniciativa tiene como objetivo acercar a todos los sectores a los conocimientos y herramientas 
+                                        necesarias para una vida más saludable.
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <br>
+                    <div class="col-md-12 d-flex justify-content-center align-items-center" >
+                        <video class="embed-responsive-item" autoplay muted loop style="width: 70%; height: 30%; object-fit: cover;">
+                            <source src="static/img/feria.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <div class="container py-5">
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                       
+                        <div class="row text-left p-2 pb-3">
+                            <center><h3>ACTIVIDADES</h3></center> 
+                        </div>
+            
+                        <div class="container py-1">
+                            <!-- TARJETAS -->
+                            <div class="row justify-content-center">
+                                <!-- Tarjeta 1 -->
+                                <div class="col-md-6 col-lg-3 mb-4 d-flex">
+                                    <div class="card mb-4 product-wap rounded-0 d-flex flex-column">
+                                        <img class="card-img rounded-0 img-fluid" src="static/img/CLASEMUESTRA.JPG" alt="" style="height: 200px; object-fit: cover;">
+                                        <div class="card-body d-flex flex-column justify-content-between">
+                                            <br>
+                                            <center><a class="h2 text-decoration-none" style="color: #59ab6e; text-align: center;"><b>CLASE MUESTRA</b></a></center>
+                                            <br>
+                                            <h5 style="text-align: justify;">Clases y demostraciones de los diferentes talleres que impartimos, con el propósito de enseñar técnicas preventivas y de cuidado en el hogar.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Tarjeta 2 -->
+                                <div class="col-md-6 col-lg-3 mb-4 d-flex">
+                                    <div class="card mb-4 product-wap rounded-0 d-flex flex-column">
+                                        <img class="card-img rounded-0 img-fluid" src="static/img/TOMASIGNOS.jpg" alt="" style="height: 200px; object-fit: cover;">
+                                        <div class="card-body d-flex flex-column justify-content-between">
+                                            <center><a class="h2 text-decoration-none" style="color: #59ab6e; text-align: center;"><b>TOMA DE SIGNOS VITALES</b></a></center>
+                                            <br>
+                                            <h5 style="text-align: justify;">Toma de signos vitales, como presión arterial y niveles de glucosa, para fomentar la conciencia sobre la importancia de la salud cardiovascular y metabólica.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Tarjeta 3 -->
+                                <div class="col-md-6 col-lg-3 mb-4 d-flex">
+                                    <div class="card mb-4 product-wap rounded-0 d-flex flex-column">
+                                        <img class="card-img rounded-0 img-fluid" src="static/img/ritmoslatinos.jpg" alt="" style="height: 200px; object-fit: cover;">
+                                        <div class="card-body d-flex flex-column justify-content-between">
+                                            <center><a class="h2 text-decoration-none" style="color: #59ab6e; text-align: center;"><b>PLATICAS INFORMATIVAS</b></a></center>
+                                            <br>
+                                            <h5 style="text-align: justify;">Pláticas informativas en las que se compartirán temas relevantes sobre prevención y cuidado de la salud, dirigidas a escuelas, empresas e instituciones.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p>Invitamos especialmente a las instituciones educativas, empresas y organizaciones locales a coordinar con nosotros la realización de esta importante actividad en sus instalaciones. De esta forma, podremos llevar a sus espacios una jornada de salud, brindando a su comunidad el acceso directo a estos servicios de manera gratuita y accesible.</p>
+                        <!-- Modal -->
+                        <center>
+                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                Más información
+                            </button>
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">FERIA DE LA SALUD EN INSTITUCIONES</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body" style="text-align:justify;">
+                                            <p>
+                                                <p style="text-align: center;"><b>¡No pierdas la oportunidad de ser parte de este gran evento!</b></p> 
+                                                
+                                                Ayúdanos a promover una cultura de prevención y cuidado entre los ciudadanos de Salamanca.
+                                                 Juntos podemos hacer la diferencia y mejorar la calidad de vida de todos.
+                                                <br>
+                                                <br>
+                                                Para más información y para coordinar la visita de la Feria de la Salud en tu institución, no dudes en ponerte en contacto con nosotros. </p>
+                                                <p style="text-align: center; "><b>¡Esperamos contar con tu participación!</b></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </center>
+                        <br>
+                        <br>
+                        
+            
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </main>
 
         <!--INICIO Pie de página -->
